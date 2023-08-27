@@ -35,4 +35,4 @@ def blackScholes(r, S, K, T, sigma, option_type):
         print("Error: Please check your inputs.")
 
 # Display the calculated option price
-print("\nThe price of the option is: ", round(blackScholes(r, S, K, T, sigma, option_type), 2))
+print("The price of the option is: ", round(blackScholes(r, S, K, T, sigma, option_type), 2))
